@@ -1,7 +1,7 @@
 YoutubeCD
 =========
 
-Note - bash equivalent included in this file.
+Note - bash equivalent included in this folder.
 
 Steps:
 
@@ -11,6 +11,7 @@ Steps:
 
 Try this one out:
 http://rg3.github.io/youtube-dl/download.html
+
 Note - youtube-dl requires Python version 2.6, 2.7, or 3.3+ to work.
 
 2)Make sure the downloaded files are burnable, or get a file converter.
