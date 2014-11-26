@@ -1,6 +1,23 @@
 YoutubeCD
 =========
 
+*Note: youtube-dl outdated. Need to install most recent version.*
+
+Create python file that parses database output
+
+feed output from that into youtube-dl
+
+make the sql delete those bookmarks
+
+have diifferent behavior for folders or links in >Songs
+
+have an initiator that creates the folder
+
+*database editing is not immediate. closing ff MAY do the trick*
+
+
+------------------------------------------------------------------------
+
 Note - bash equivalent included in this folder.
 
 Steps:
@@ -17,6 +34,8 @@ Note - youtube-dl requires Python version 2.6, 2.7, or 3.3+ to work.
 2)Make sure the downloaded files are burnable, or get a file converter.
 
 3)Pull up CD burner with appropriate files.
+
+
 
 
 ------------------------------------------------------------------------
