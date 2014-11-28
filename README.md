@@ -1,6 +1,15 @@
 YoutubeCD
 =========
 
+Have root.sh working.
+
+Todo:	think about distribution
+	get subz working
+	change https to http (or vice versa)
+	refactor
+
+------------------------------------------------------------------------
+
 *Note: youtube-dl outdated. Need to install most recent version.*
 
 Create python file that parses database output
