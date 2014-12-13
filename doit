@@ -1,3 +1,0 @@
-#!/bin/bash
- 
-youtube-dl -f 140 -o '%(autonumber)s_%(title)s.m4a' `sqlite3 places.sqlite < sqlite.txt | python parse.py`

@@ -1,1 +1,1 @@
-select url from moz_places where title in (select title from moz_bookmarks where parent = (select id from moz_bookmarks where title='▶Songs') AND type = 1);
+select url from moz_places where id in (select fk from moz_bookmarks where parent = (select id from moz_bookmarks where title='▶Songs') AND type = 1);
