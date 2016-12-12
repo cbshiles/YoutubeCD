@@ -1,14 +1,14 @@
 ## Tunes Program
 
+Setup: in browse.sh, set up the hom variable to the desired user
+
 This is going to be a command line music management system. You will call it on the command line like tunes.
 -u Update youtube-dl and whatever else may need it
---version
+-r Refresh: clear memoryt of what urls have already been checked
 --help
 
 -b For browse: Browse what music you have listened to lately (No args)
-#-c For choose: Specify urls for songs you want to download (+ args)
--f 
--p Play - pull up vlc or something
+-n for number of urls to pull up
 
 For arguments to program:
 
