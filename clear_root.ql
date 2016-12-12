@@ -1,1 +1,0 @@
-DELETE from moz_bookmarks where parent = (select id from moz_bookmarks where title='▶Songs') AND type = 1;

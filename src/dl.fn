@@ -1,0 +1,1 @@
+youtube-dl -f 141/140 -o ~brenan/Tunes/'%(title)s.%(ext)s' "$1"
