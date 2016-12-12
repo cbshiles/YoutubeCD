@@ -1,5 +1,0 @@
-apt-get install sqlite3
-apt-get install youtube-dl
-mkdir Tunes
-
-# Note - youtube-dl requires Python version 2.6, 2.7, or 3.3+ to work.

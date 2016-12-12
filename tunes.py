@@ -11,12 +11,9 @@ parser.add_argument('urls', type=str, nargs='*',
 parser.add_argument("-b", "--browse",
                   action="store_true", dest="browse", default=False,
                   help="Browse what music you have listened to lately and select for download")
-parser.add_argument("-f", "--force",
-                  action="store_true", dest="force", default=False,
-                  help="Download despite there already being a file with that name. Used in conjunction with -b or -c")
 parser.add_argument("-r", "--refresh",
                   action="store_true", dest="fresh", default=False,
-                  help="Clear history of previous browsings. Will still check if duplicate in file system (toggle -f)")
+                  help="Clear history of previous browsings.")
 parser.add_argument("-n", "--number",
                     dest="n", default=-1, 
                   help="Look at oldest n songs which are more recent than last check date.")
