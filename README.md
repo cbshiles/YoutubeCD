@@ -1,6 +1,37 @@
 YoutubeCD
 =========
 
+[Created with help from Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
+
+Okay, so total mess here, but nothing's wrong with that.
+Lots of organization to be done, but lets make sure we've got all the 
+programs we need in the windows environment.
+
+## Downloads
+
+Note - youtube-dl requires Python version 2.6, 2.7, or 3.3+ to work.
+Should we just say you have to get Python 3 for the project?
+
+[Download Youtube-dl](https://rg3.github.io/youtube-dl/)
+
+Get it for Windows, make sure you can download a song.
+An example dl command would be ... 
+`youtube-dl --no-cache-dir -i -f 141/140 --no-playlist -o ~brenan/Tunes/%(title)s.%(ext)s https://www.youtube.com/watch?v=hLhN__oEHaw`
+
+Your computer **_should_** already have sqlite on it.
+I think firefox uses sqlite regardless of your operating system,
+so all we should need to do is find out how to access it via the command line.
+
+[Good Resource for SQLite](http://www.sqlite.org/cli.html)
+
+Firefox's history database is usually located at firefox/*.default/places.sqlite, 
+where * is random gibberish.
+
+If you can connect to that database and do a basic query, and also download a song
+with youtube-dl, we will have the basic operations needed for our program to work in Windows.
+
+Everything below this line is old stuff i dont feel like deleting yet.
+------------------------------------------------------------------------
 Have root.sh working.
 
 Todo:	think about distribution
